@@ -19,7 +19,8 @@ app.set("view engine", "handlebars");
 mongoose.Promise = global.Promise;
 mongoose
   .connect(
-    "mongodb+srv://nossouser:nossasenha123@cluster0.muxyzuo.mongodb.net/guloseimas-da-val-database?retryWrites=true&w=majority"
+    ""
+  //AQUI, O BANCO DE DADOS PARA CONEXÃO DEVE SER INSERIDO
   )
   .then(() => {
     /* pode ser o link ou o db.mongoURI */
