@@ -1,0 +1,89 @@
+<div class="second-content">
+    <div class="img-about">
+        <img src="img/imgprincip.jpeg" width="600px" >
+    </div>
+    <div class="about-content">
+        <h1> As últimas têndências</h1>
+        <h5> O melhor de Arapiraca</h5>
+    </div>
+</div>
+
+<div class="third-content">
+    <hr>
+<!--
+<div class="card-item">
+        <img src="img/tenis1catalo.jpeg" width="200px">
+        <h3>Tênis dolce</h3>
+        <p>R$ 120</p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/tenis2catalo.jpeg" width="200px">
+        <h3>Tênis dolce</h3>
+        <p>R$ 120</p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/tenis3catalo.jpeg" width="200px">
+        <h3>Tênis dolce</h3>
+        <p>R$ 120</p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/tenis4catalo.jpeg" width="200px">
+        <h3>Tênis dolce</h3>
+        <p>R$ 120</p>
+    </div>
+
+    <div class="card-item">
+        <img src="img/tenis5catalo.jpeg" width="200px">
+        <h3>Tênis dolce</h3>
+        <p>R$ 120</p>
+    </div>
+
+-->
+    {{#each produtos}}
+        <div class="card-item">
+            <img src="img/{{imagemLink}}" width="200px"/>
+            <h3>{{nome}}</h3>
+            <p>R${{preco}}</p>
+        </div>
+    {{else}}
+        <div class="card-item">
+            <h3>Sem produtos registrados!</h3>
+        </div>
+    {{/each}}
+    <hr>
+</div>
+
+
+<div class="fourth-content">
+    <div class="img">
+        <img src="img/serase.jpg" width="600px">
+    </div>
+    <div class="about">
+        <h1> CONHEÇA ARAIMPORTS</h1>
+        <br>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sequi doloremque obcaecati 
+            commodi totam. Deleniti non ab, eius neque velit dicta, recusandae suscipit, veniam vero modi
+                ipsum natus cupiditate quaerat!</p>
+    </div>
+</div>
+
+
+<div class="fifth-content">
+    <div class="info">
+        <p> ENTRE EM CONTATO</p>
+        <br>
+        <p>  R. Duque de Caxias, 710 - Ouro Preto, Arapiraca - AL</p>
+        <br>
+        <p> Tel: (82) xxxx-xxxx</p>
+        <br>
+        <a<i class='fab fa-instagram'></i></a>
+        <a<i class="fab fa-facebook-f"></i></a>
+    </div>
+    <div class="img">
+        <img src="img/Araimports.png">
+    </div>
+</div>

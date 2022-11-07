@@ -1,0 +1,105 @@
+<div class="filter-card">
+  <input type="text" class="search-input" />
+  <button class="search-button">Search</button>
+</div>
+
+<div class="catalogo">
+  {{#each produtos}}
+    <div class="item">
+      <img src="/img/{{imagemLink}}" width="200px" />
+      <h3>{{nome}}</h3>
+      <p>R${{preco}}</p>
+      <button type="button"> Comprar</button>
+    </div>
+  {{else}}
+    <div class="item">
+      <h3>Sem produtos registrados</h3>
+    </div>
+  {{/each}}
+  <!--
+    
+  <div class="item">
+    <img src="img/tenis1catalo.jpeg" width="200px" />
+    <h3>Tênis Dolce Gabbana</h3>
+    <p>R$ 120</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis2catalo.jpeg" width="200px" />
+    <h3>Tênis Tommy Hilfiger</h3>
+    <p>R$ 100</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis3catalo.jpeg" width="200px" />
+    <h3>Chinelo Lacoste</h3>
+    <p>R$ 40</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis4catalo.jpeg" width="200px" />
+    <h3>Tênis Nike baby</h3>
+    <p>R$ 70</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis5catalo.jpeg" width="200px" />
+    <h3>Tênis Vans</h3>
+    <p>R$ 90</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis6catalo.jpeg" width="200px" />
+    <h3>Chinelo Adidas</h3>
+    <p>R$ 40</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis7catalo.jpeg" width="200px" />
+    <h3>Tênis Puma</h3>
+    <p>R$ 100</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis8catalo.jpeg" width="200px" />
+    <h3>Tênis Fila</h3>
+    <p>R$ 120</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis9catalo.jpeg" width="200px" />
+    <h3>Tênis Gucci</h3>
+    <p>R$ 90</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis10catalo.jpeg" width="200px" />
+    <h3>Tênis adidas</h3>
+    <p>R$ 130</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis11catalo.jpeg" width="200px" />
+    <h3>Tênis Nike Preto</h3>
+    <p>R$ 150</p>
+    <button type="button"> Comprar</button>
+  </div>
+
+  <div class="item">
+    <img src="img/tenis12catalo.jpeg" width="200px" />
+    <h3>Tênis Nike Rosa</h3>
+    <p>R$ 150</p>
+    <button type="button"> Comprar</button>
+  </div>
+    --->
+</div>
