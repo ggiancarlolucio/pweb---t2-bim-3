@@ -1,1 +1,1 @@
-# projeto relacionado à avaliação 2 do terceiro bimestre de programação web
+# Projeto relacionado à 2° avaliação do terceiro bimestre de programação web
